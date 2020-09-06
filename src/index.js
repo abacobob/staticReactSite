@@ -82,7 +82,7 @@ class Landing extends React.Component {
   render() {
     return <div className='header'>
       <div className='headerText'>
-        <h1>'Valle de la Sella' Bar and grill</h1>
+        <h1>'Valle de la Sella' bar and grill</h1>
         <h3>Traditional Spanish cuisine </h3>
         <h3>in the heart of the Picos de Europa</h3>
       </div>
@@ -99,7 +99,7 @@ class Intro extends React.Component {
         <Row>
           <Col md="4">
             <h3>Local ingredients</h3>
-            <p >Our kitchen uses only the finest ingredients from the mountains, rivers, seas and forests of Asturias.</p>
+            <p >We use only the finest ingredients from the mountains, rivers, seas and forests of Asturias to create our authentic flavors.</p>
           </Col>
           <Col md="4">
             <h3>Seasonal flavors</h3>

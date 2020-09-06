@@ -89,7 +89,8 @@ class OrderParent extends React.Component {
             <div className='orderModule'>
                 <div>
                     <h3 className='sectionHeader'>Contactless ordering</h3>
-                    <p className='sectionHeader'><i>Place your order safely in line with social distancing guidelines</i></p>
+                    <p className='sectionHeader'><i>Place your order safely, in line with social distancing guidelines</i></p>
+                    <p className='sectionHeader'><i>Your payment will be taken by your waiter.</i></p>
 
                     <div className='orderHeader'>
                         <Button color="info" id="openOrderButton">
@@ -141,7 +142,7 @@ class OrderMenu extends React.Component {
                         return <tr>
                             <td key ={'OrderMenuItem' + index}>{item.name}</td>
                             <td key ={'OrderMenuPrice' + index}>€{item.price.toFixed(2)}</td>
-                            <td key ={'OrderMenuButton' + index}>{<button id={index} className='addToOrderButton' onClick={this.props.addToOrder} >Add to order</button>}</td>
+                            <td key ={'OrderMenuButton' + index}>{<button id={index} className='addToOrderButton' onClick={this.props.addToOrder} >Add</button>}</td>
                         </tr>
                     })
                     }
