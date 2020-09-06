@@ -187,7 +187,7 @@ class Footer extends React.Component {
           </Col>
           <Col><h5>Contact</h5>
             <ul>
-              <li>Github: <a href='https://github.com/abacobob/reactPortfolioSite' target='blank'>View this project on Github</a></li>
+              <li>Github: <a href='https://github.com/abacobob/staticReactSite' target='blank'>View this project on Github</a></li>
               <li>LinkedIn: <a href='https://www.linkedin.com/in/chris-davies-819113186/' target='blank'>Contact the developer</a></li>
             </ul>
           </Col>
