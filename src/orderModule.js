@@ -88,8 +88,8 @@ class OrderParent extends React.Component {
 
             <div className='orderModule'>
                 <div>
-                    <h3 className='sectionHeader'>Order for delivery</h3>
-                    <p className='sectionHeader'><i>Place your order for delivery (terms and conditions apply)</i></p>
+                    <h3 className='sectionHeader'>Contactless ordering</h3>
+                    <p className='sectionHeader'><i>Place your order safely in line with social distancing guidelines</i></p>
 
                     <div className='orderHeader'>
                         <Button color="info" id="openOrderButton">
