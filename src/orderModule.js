@@ -43,6 +43,7 @@ class OrderParent extends React.Component {
 
                 <h4>Order confirmed!</h4>
                 <h6>Here is a summary:</h6>
+                <p>Your payment will be taken by your waiter</p>
 
 
                 <Table borderless striped responsive>
