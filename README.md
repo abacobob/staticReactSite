@@ -21,24 +21,24 @@ When submitted, the food order would be sent to an express server whereupon it c
 
 * HTML, CSS and vanilla JS
 * React
-* Git BASH CLI
 * Node.js and NPM
 * Express
+* CLI: Git BASH
 * Version control with Git
 * Heroku hosting and deployment solution
 
 ## Principle node packages:
 
--Axios: used for handling HTTP requests (Axios behaves in a similar way to fetch(), but with broader cross-browser support).
--Reactstrap: react-compatible bootstrap library for mobile-ready responsive design.
--Sweetalert: used for a responsive 'window.alert' alternative, used in the 'order confirmation' section.
+* Axios: used for handling HTTP requests (Axios behaves in a similar way to fetch(), but with broader cross-browser support).
+* Reactstrap: react-compatible bootstrap library for mobile-ready responsive design.
+* Sweetalert: used for a responsive 'window.alert' alternative, used in the 'order confirmation' section.
 
 ## Project components:
 
 There are 3 core components to this project:
--a static landing page with non-interactive menu
--a dynamic order management system, using react props to pass data between components
--an Express server to handle GET/POST requests (IN REVIEW*)
+* a static landing page with non-interactive menu
+* a dynamic order management system, using react props to pass data between components
+* an Express server to handle GET/POST requests (IN REVIEW*)
 
 ## Static landing page:
 
