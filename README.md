@@ -2,11 +2,11 @@ staticReactSite Readme document
 
 ##Introduction
 
-This site is intented to demonstrate the authors competence with React and associated technlogies for front- and back-end development to employers and private clients.
+This site demonstrates the authors' competence with React and associated technlogies for front- and back-end web development.
 
-##project overview
+##Project overview
 
-This site was created via NPX create-react-app and deployed on Heroku. The project takes the form of a restaurant site with an interactive menu, such that
+This site was created using NPX create-react-app and deployed on Heroku. The project takes the form of a restaurant site with an interactive menu, such that
 customers could order their food from the menu without handling a physical document, in line with local COVID-19 advice.
 
 When submitted, the food order would be sent to an express server whereupon it could be read by the kitchen, or sent on to a order management system.
@@ -32,26 +32,27 @@ This section contains 'add' buttons that push the desired item to an array.
 The onscreen confirmation is created with a combination of a sweetalert popup and JSX to structure the information.
 
 ##Express server (CURRENTLY IN REVIEW*)
-The express server is queried by the page on load through a GET request, and sends the updated restaurant menu to the React components.
+The express server is queried by the React parent component on mount through a GET request, and sends the updated restaurant menu to the React components.
 
-The server recieves the customers order through a POST request, and displays it in the console. This could easily then be sent to an order management system or a 
-database
+The server receives customer food orders through a POST request, and displays it in the console. This could easily then be sent to an order management system or a 
+database.
 
 *Note that this function is currently in review due to compatibility issues with the hosting service, so the menu is presently deployed from a vanilla JS module.
 see 'future work' below.
 
-##utilised technologies
+##utilised tools and technologies
 -HTML, CSS and vanilla JS
 -React
--Node.js
+-Git BASH CLI
+-Node.js and NPM
 -Express
 -Version control with Git
 -Heroku hosting and deployment solution
 
 ##Principle node packages
--AXIOS: used for handling HTTP requests (behaves in a similar way to fetch(), but with broader cross-browser support)
--Reactstrap: react-compatible bootstrap library
--Sweetalert: used for responsive window.alert in the 'order confirmation' section.
+-Axios: used for handling HTTP requests (Axios behaves in a similar way to fetch(), but with broader cross-browser support).
+-Reactstrap: react-compatible bootstrap library for mobile-ready responsive design.
+-Sweetalert: used for a responsive 'window.alert' alternative, used in the 'order confirmation' section.
 
 ##Future work
 -Resolve the express server compatibility issue.
