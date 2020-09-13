@@ -45,7 +45,7 @@ There are 3 core components to this project:
 
 The static landing page is the basic website that users will encounter upon travelling to the URL. It is fully responsive and mobile-optimized using bootstrap (via the reactstrap NPM package) and derived technologies.
 
-## order management system:
+## Order management system:
 The order management system has 3 key sections:
 
 1. A 'daily menu' display, including item descriptions and prices, with an option to add items to an order that will be sent to the kitchen.
@@ -58,7 +58,7 @@ The onscreen confirmation is created with a combination of a sweetalert popup an
 
 ## Express server (CURRENTLY IN REVIEW*):
 
-The express server is queried by the React parent component on mount through a GET request, and sends the updated restaurant menu to the React components.
+The Express server is queried by the React parent component on mount through a GET request, and sends the updated restaurant menu to the React components.
 
 The server receives customer food orders through a POST request, and displays it in the console. This could easily then be sent to an order management system or a 
 database.
