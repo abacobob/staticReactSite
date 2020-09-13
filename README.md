@@ -11,7 +11,23 @@ customers could order their food from the menu without handling a physical docum
 
 When submitted, the food order would be sent to an express server whereupon it could be read by the kitchen, or sent on to a order management system.
 
-##components:
+##utilised tools and technologies:
+
+-HTML, CSS and vanilla JS
+-React
+-Git BASH CLI
+-Node.js and NPM
+-Express
+-Version control with Git
+-Heroku hosting and deployment solution
+
+##Principle node packages:
+
+-Axios: used for handling HTTP requests (Axios behaves in a similar way to fetch(), but with broader cross-browser support).
+-Reactstrap: react-compatible bootstrap library for mobile-ready responsive design.
+-Sweetalert: used for a responsive 'window.alert' alternative, used in the 'order confirmation' section.
+
+##Project components:
 
 There are 3 core components to this project:
 -a static landing page with non-interactive menu
@@ -42,22 +58,6 @@ database.
 
 *Note that this function is currently in review due to compatibility issues with the hosting service, so the menu is presently deployed from a vanilla JS module.
 see 'future work' below.
-
-##utilised tools and technologies:
-
--HTML, CSS and vanilla JS
--React
--Git BASH CLI
--Node.js and NPM
--Express
--Version control with Git
--Heroku hosting and deployment solution
-
-##Principle node packages:
-
--Axios: used for handling HTTP requests (Axios behaves in a similar way to fetch(), but with broader cross-browser support).
--Reactstrap: react-compatible bootstrap library for mobile-ready responsive design.
--Sweetalert: used for a responsive 'window.alert' alternative, used in the 'order confirmation' section.
 
 ##Future work
 -Resolve the express server compatibility issue.
