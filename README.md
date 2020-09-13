@@ -19,13 +19,13 @@ When submitted, the food order would be sent to an express server whereupon it c
 
 ## Tools and technologies:
 
--HTML, CSS and vanilla JS
--React
--Git BASH CLI
--Node.js and NPM
--Express
--Version control with Git
--Heroku hosting and deployment solution
+* HTML, CSS and vanilla JS
+* React
+* Git BASH CLI
+* Node.js and NPM
+* Express
+* Version control with Git
+* Heroku hosting and deployment solution
 
 ## Principle node packages:
 
