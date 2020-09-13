@@ -63,7 +63,7 @@ The server receives customer food orders through a POST request, and displays it
 database.
 
 *Note that this function is currently in review due to compatibility issues with the hosting service, so the menu is presently deployed from a vanilla JS module.
-see 'future work' below.
+See 'future work' below.
 
 ## Future work:
 
