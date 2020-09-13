@@ -1,4 +1,4 @@
-# staticReactSite Readme document
+# Restaurant site : dynamic order management with React
 
 ## Introduction:
 
@@ -11,7 +11,7 @@ customers could order their food from the menu without handling a physical docum
 
 When submitted, the food order would be sent to an express server whereupon it could be read by the kitchen, or sent on to a order management system.
 
-## utilised tools and technologies:
+## Tools and technologies:
 
 -HTML, CSS and vanilla JS
 -React
