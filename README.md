@@ -1,5 +1,9 @@
 # Restaurant site : dynamic order management with React
 
+* [Introduction](#Introduction)
+* [Project overview](#Project overview)
+* [Tools and technologies](#Tools and technologies)
+
 ## Introduction:
 
 This site demonstrates the authors' competence with React and associated technlogies for front- and back-end web development.
