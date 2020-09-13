@@ -1,5 +1,6 @@
 # Restaurant site: dynamic order management with React
 
+## Contents:
 * [Introduction](#Introduction)
 * [Project overview](#Project-overview)
 * [Tools and technologies](#Tools-and-technologies)
