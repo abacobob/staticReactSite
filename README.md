@@ -1,4 +1,4 @@
-# Restaurant site : dynamic order management with React
+# Restaurant site: dynamic order management with React
 
 * [Introduction](#Introduction)
 * [Project overview](#Project-overview)
